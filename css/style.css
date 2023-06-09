@@ -56,7 +56,7 @@ header nav ul li:last-of-type a{
     justify-content: center;
     align-items: flex-end;
     padding-bottom: 71px;
-    background-image: url("img/IMAGE.jpg");
+    background-image: url("../img/IMAGE.jpg");
     background-size: cover;
     height: calc(100vh - 83px);
     box-sizing: border-box;
