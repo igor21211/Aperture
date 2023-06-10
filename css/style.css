@@ -152,4 +152,45 @@ a.text-image::before {
     border-radius: 50%;
     background-color: #000000;
     margin-right: 8px;
-  }
+}
+
+.sunset{
+    background-image: url("../img/sunset.jpg");
+    background-size: cover;
+    min-height: 600px;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 60px;
+}
+
+.sunset article{
+    max-width: 300px;
+}
+
+.sunset article h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.sunset article p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.monstera{
+    background-image: url("../img/monstera_back.jpg");
+    
+}
+.himalayas{
+    background-image: url("../img/himalay_back.jpg");
+}
