@@ -316,3 +316,15 @@ color: #FFFFFF;
 hr{
     padding: 0 126px 0 146px;
 }
+.icons{
+    display: flex;
+    justify-content: flex-end;
+}
+.icons a{
+    margin-left: 30px;
+}
+.subscribe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
