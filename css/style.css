@@ -263,7 +263,7 @@ footer .info li{
 font-style: normal;
 font-weight: 400;
 font-size: 13px;
-line-height: 20px;
+line-height: 23px;
 color: #FFFFFF;
 list-style: none;
 }
@@ -271,15 +271,15 @@ footer .info ul{
    margin-left: 56px;
    
 }
-.first{
+h5{
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-letter-spacing: 2px;
-text-transform: uppercase;
-color: #C0C0C0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
 }
 .contacts{
     margin-bottom: 36px;
