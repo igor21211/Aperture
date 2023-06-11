@@ -154,6 +154,7 @@ a.text-image::before {
     margin-right: 8px;
 }
 
+
 .sunset{
     background-image: url("../img/sunset.jpg");
     background-size: cover;
@@ -265,12 +266,11 @@ font-size: 13px;
 line-height: 20px;
 color: #FFFFFF;
 }
-
 footer .info ul{
    margin-left: 56px;
    
 }
-footer .info h5{
+.fisrt{
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
@@ -288,10 +288,11 @@ font-size: 14px;
 line-height: 20px;
 letter-spacing: 2px;
 text-transform: uppercase;
-color: #C0C0C0;
+color: #b3b3b3;
 }
-.cantacts{
+.contacts{
     margin-bottom: 36px;
+    display: inline-flex;
 }
 
 footer .subscribe{
@@ -327,4 +328,12 @@ hr{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+input{
+    width: 452px;
+    height: 52px;
+}
+button{
+    width: 73px;
+    height: 52px;
 }
