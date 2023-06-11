@@ -194,3 +194,125 @@ a.text-image::before {
 .himalayas{
     background-image: url("../img/himalay_back.jpg");
 }
+.past_clients{
+    padding: 113px 0 140px;
+    background-color: #000000;
+}
+.past_clients .container{
+    max-width: 1168px;
+    margin: auto;
+}
+
+.past_clients h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.past_clients h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 82px;
+}
+.past_clients .flex_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.past_clients .flex_block a{
+    display: inline-block;
+    margin: 0 10px;
+    max-width: 128px;
+}
+.past_clients .flex_block a img{
+    display: block;
+    width: 100%;
+}
+footer{
+    background-color: #000000;
+}
+footer .info{
+    height: 200px;
+    margin-bottom: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .info a{
+    margin-bottom: 20px;
+}
+p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+color: #C0C0C0;
+}
+footer .info li{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+color: #FFFFFF;
+}
+
+footer .info ul{
+   margin-left: 56px;
+   
+}
+footer .info h5{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #C0C0C0;
+}
+.first{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #C0C0C0;
+}
+.cantacts{
+    margin-bottom: 36px;
+}
+
+footer .subscribe{
+    height: 132px;
+}
+footer .media{
+    height: 74px;
+}
+.footer_contain{
+    padding: 100px 126px 100px 146px;
+}
+.subscribe h3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+hr{
+    padding: 0 126px 0 146px;
+}
