@@ -258,7 +258,7 @@ font-size: 13px;
 line-height: 20px;
 color: #C0C0C0;
 }
-footer .info li{
+footer .info a{
     font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
@@ -266,6 +266,10 @@ font-size: 13px;
 line-height: 23px;
 color: #FFFFFF;
 list-style: none;
+text-decoration: none;
+}
+footer .info li{
+    margin-bottom: 10px;
 }
 footer .info ul{
    margin-left: 56px;
@@ -280,6 +284,7 @@ h5{
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #C0C0C0;
+    margin-bottom: 10px;
 }
 .contacts{
     margin-bottom: 36px;
@@ -289,8 +294,40 @@ h5{
 footer .subscribe{
     height: 132px;
 }
+footer .subscribe h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+footer .subscribe p {
+    ont-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+footer .subscribe form{
+    display: flex;
+
+}
 footer .media{
     height: 74px;
+}
+footer .media p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #C0C0C0;
+padding-top: 56px ;
 }
 .footer_contain{
     padding: 100px 126px 100px 146px;
@@ -305,9 +342,7 @@ letter-spacing: 2px;
 text-transform: uppercase;
 color: #FFFFFF;
 }
-hr{
-    padding: 0 126px 0 146px;
-}
+
 .icons{
     display: flex;
     justify-content: flex-end;
@@ -319,12 +354,33 @@ hr{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 }
 input{
     width: 452px;
     height: 52px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #F9FAFB;
+    border-radius: 12px 0 0 12px;
 }
 button{
+    display: flex;
     width: 73px;
     height: 52px;
+    border: none;
+    background-color: #F9FAFB;
+    overflow: hidden;
+    border-radius: 0 12px 12px 0;
 }
+button:before {
+    content: "";
+    margin: auto;
+    top: 0;
+    right: 0;
+    width: 63px;
+    height: 30px;
+    border-radius: 11px;
+    background-color: black;
+  }
