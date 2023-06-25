@@ -82,6 +82,30 @@
         padding-top: 60px;
         padding-bottom: 30px;
     }
+    .past_clients h2{
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 13px;
+    }
+    .past_clients h3{
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 62px;
+    }
+    .get_in h1{
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 15px;
+    }
+    .get_in h3{
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .get_in{
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
 
     
 }
@@ -110,29 +134,28 @@
     footer .info a{
         font-size: 10px;
         line-height: 13px;
-        }
+    }
+    footer .info li{
+        margin-bottom: 5px;
         
-        footer .info li{
-            margin-bottom: 5px;
-        
-        }
-        footer .info ul{
-           margin-left: 26px;
+    }
+    footer .info ul{
+        margin-left: 26px;
            
-        }
-        footer .info li:first-child{
-            font-size: 13px;
-            line-height: 15px;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            color: #C0C0C0;
-            margin-bottom: 10px;
-            list-style: none;
-        }
-        header nav a{
-            font-size: 8px;
-            line-height: 8px;
-        }
+    }
+    footer .info li:first-child{
+        font-size: 13px;
+        line-height: 15px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #C0C0C0;
+        margin-bottom: 10px;
+        list-style: none;
+    }
+    header nav a{
+        font-size: 8px;
+        line-height: 8px;
+    }
     
         header .container{
             margin: auto;
@@ -142,6 +165,16 @@
     nav a:last-child{
         display: block;
     }
+    .sunset article h4{
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        color: #FFFFFF;
+    }
+    .sunset article p{
+        font-size: 12px;
+        line-height: 15px;
+    }
 }
 
 @media (max-width: 420px) {
@@ -150,4 +183,5 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+
 }
