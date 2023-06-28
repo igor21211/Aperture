@@ -6,7 +6,7 @@ $(document).ready(function(){
         animateOut:'slideOutUp',
         animateIn:'slideInUp',
         navText: ['', ' '],
-        nav:false,
+        nav:true,
         dots:true,  
         responsive:{
             550:{
@@ -21,5 +21,20 @@ $(document).ready(function(){
         }
     });
   });
-
-
+  $( function() {
+    $( "#dialog" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 500
+      },
+      hide: {
+        effect: "explode",
+        duration: 500
+      }
+    });
+ 
+    $( "#opener" ).on( "click", function() {
+      $( "#dialog" ).dialog( "open" );
+    });
+  } );

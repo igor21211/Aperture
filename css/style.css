@@ -46,6 +46,14 @@ header nav ul li:last-of-type a{
     letter-spacing: 0.4px;
     color: #000000;
     padding: 11px 20px;
+    border: solid 1px;
+    color: #000;
+    cursor: pointer;
+}
+header nav ul li:last-of-type a:hover{
+    background-color: #000;
+    color: #fff;
+    border-color: #fff;
 }
 .main_screen{
     display: flex;
@@ -579,3 +587,36 @@ align-items: center;
 .past_clients .owl-item{
     text-align: center;
 }
+.ui-widget.ui-widget-content p{
+    font-style: 20px;
+}
+
+.ui-widget.ui-widget-content{
+    width: 500px !important;
+    background-color: #000;
+}
+.ui-widget.ui-widget-content input{
+    margin-bottom: 12px;
+    background-color: #fff;
+    width: 460px;
+    border-radius: 0;
+}
+.ui-widget.ui-widget-content textarea{
+    width: 460px;
+    margin-bottom: 5px;
+}
+.ui-widget.ui-widget-content button{
+    border: solid 1px;
+    border-color: #000;
+    color: #000;
+    background-color: #fff;
+    width: 60px;
+    height: 25px;
+}
+.ui-widget.ui-widget-content button:hover{
+    color: #fff;
+    border-color: #fff;
+    background-color: #000;
+}
+
+

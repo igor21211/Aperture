@@ -11,6 +11,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
    
@@ -18,7 +20,7 @@
 <body>
     <header>
         <div class="container">
-            <a class="img-logo" href="#"><img  src="img/Aperture-Logotype-Horizontal-White.svg" alt="Logo"></a>
+            <a class="img-logo" ><img  src="img/Aperture-Logotype-Horizontal-White.svg" alt="Logo"></a>
         <nav>
             <ul>
                 <li>
@@ -34,7 +36,7 @@
                     <a href="#">Contact</a>
                 </li>
                 <li>
-                    <a href="#">Get template</a> 
+                    <a id="opener">Get template</a> 
                 </li>
             </ul>
         </nav>
@@ -168,7 +170,7 @@
             <article>
                 <h1>Need help with photography or videography?</h1>
                 <h3>We're here for you!</h3>
-                <a href="#" class="text-image">Get in touch</a> 
+                <a   class="text-image">Get in touch</a> 
             </article>
         </section>
     </main>
@@ -210,6 +212,12 @@
                     </form>
             </div>
         </div>
+        <div id="dialog" title="Welcome">
+            <p>Please set youre Email and something information about you</p>
+            <input type="email" name="" id="" placeholder="Email">
+            <textarea name="dialog" id="" cols="25" rows="10" placeholder="Tell us about yourself"></textarea>
+            <button type="submit">Send</button>
+          </div>
         <div class="media">
             <div>
                 <p>© Aperture Photography, Inc. All rights reserved.Licensing.</p>
@@ -233,4 +241,6 @@
 <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/scripts.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 </html>
