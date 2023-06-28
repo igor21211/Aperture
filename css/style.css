@@ -219,6 +219,7 @@ a.text-image::before {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
 }
 .past_clients .flex_block a{
     display: inline-block;
@@ -570,4 +571,8 @@ align-items: center;
     position: absolute;
     bottom: 30px;
     left: 30px;
+}
+.owl_stage{
+    display: flex;
+    align-items: center;
 }
