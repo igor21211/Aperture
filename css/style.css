@@ -618,5 +618,19 @@ align-items: center;
     border-color: #fff;
     background-color: #000;
 }
-
-
+.fqa{
+    background-color: #000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.fqa__container{
+    max-width: 1168px;
+    margin: auto;
+}
+.ui-accordion .ui-accordion-content{
+    background-color: #000;
+}
+.ui-state-active{
+    background-color: #000;
+    border-color: #fff;
+}

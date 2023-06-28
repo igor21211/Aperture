@@ -24,11 +24,11 @@ $(document).ready(function(){
         $( "#dialog" ).dialog({
           autoOpen: false,
           show: {
-            effect: "blind",
+            effect: "fade",
             duration: 500
           },
           hide: {
-            effect: "explode",
+            effect: "drop",
             duration: 500
           }
         });
@@ -37,4 +37,7 @@ $(document).ready(function(){
           $( "#dialog" ).dialog( "open" );
         });
       });
+      $( function() {
+        $( "#accordion" ).accordion();
+      } );
   });
