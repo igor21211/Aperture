@@ -20,21 +20,21 @@ $(document).ready(function(){
             }
         }
     });
+    $( function() {
+        $( "#dialog" ).dialog({
+          autoOpen: false,
+          show: {
+            effect: "blind",
+            duration: 500
+          },
+          hide: {
+            effect: "explode",
+            duration: 500
+          }
+        });
+     
+        $( "#opener" ).on( "click", function() {
+          $( "#dialog" ).dialog( "open" );
+        });
+      });
   });
-  $( function() {
-    $( "#dialog" ).dialog({
-      autoOpen: false,
-      show: {
-        effect: "blind",
-        duration: 500
-      },
-      hide: {
-        effect: "explode",
-        duration: 500
-      }
-    });
- 
-    $( "#opener" ).on( "click", function() {
-      $( "#dialog" ).dialog( "open" );
-    });
-  } );
