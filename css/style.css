@@ -576,3 +576,6 @@ align-items: center;
     display: flex;
     align-items: center;
 }
+.past_clients .owl-item{
+    text-align: center;
+}

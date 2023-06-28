@@ -9,6 +9,9 @@ $(document).ready(function(){
         nav:false,
         dots:true,  
         responsive:{
+            550:{
+                items: 2
+            },
             768:{
                 items:3
             },
