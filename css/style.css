@@ -627,6 +627,16 @@ align-items: center;
     max-width: 1168px;
     margin: auto;
 }
+.fqa__container h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 39px;
+}
 .ui-accordion .ui-accordion-content{
     background-color: #000;
 }
