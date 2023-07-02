@@ -13,12 +13,13 @@
     <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" href="css/burger.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
    
 </head>
 <body>
-    <header>
+    <!--<header>
         <div class="container">
             <a class="img-logo" ><img  src="img/Aperture-Logotype-Horizontal-White.svg" alt="Logo"></a>
         <nav>
@@ -45,6 +46,34 @@
         <span></span>
     </button>
     </header>
+-->
+<header class="cd-header">
+    <div class="header-wrapper container">
+            <a class="img-logo" >
+                <img  src="img/Aperture-Logotype-Horizontal-White.svg" alt="Logo">
+            </a>
+        
+        <div class="nav-but-wrap">
+            <div class="menu-icon hover-target">
+                <span class="menu-icon__line menu-icon__line-left"></span>
+                <span class="menu-icon__line"></span>
+                <span class="menu-icon__line menu-icon__line-right"></span>
+            </div>					
+        </div>					
+    </div>				
+</header>
+
+<div class="nav">
+    <div class="nav__content">
+        <ul class="nav__list">
+            <li class="nav__list-item active-nav"><a href="#" class="hover-target">Business areas</a></li>
+            <li class="nav__list-item"><a href="#" class="hover-target">Featured images</a></li>
+            <li class="nav__list-item"><a href="#" class="hover-target">Gear cage</a></li>
+            <li class="nav__list-item"><a href="#" class="hover-target">Contact</a></li>
+            <li class="nav__list-item"><a href="#" class="hover-target" id="opener">Get template</a></li>
+        </ul>
+    </div>
+</div>		
     <main>
         <section class="main_screen">
             <article>
@@ -265,7 +294,7 @@
                     </form>
             </div>
         </div>
-        <div id="dialog" title="Welcome">
+        <div id="dialog" title="Welcome ">
             <form action="/fuck" method="post">
             <p>Please set youre Email and something information about you</p>
             <input type="email" name="" id="" placeholder="Email">
