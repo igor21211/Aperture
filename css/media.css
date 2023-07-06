@@ -17,13 +17,11 @@
     }
 }
 
-@media (max-width: 878px) {
+@media (max-width: 1120px) {
     header nav ul li{
         margin-left: 15px;
     }
-    header nav ul li:first-of-type{
-        margin-right: 14px;
-    }
+    
     header nav ul li:last-of-type{
         margin-left: 15px;
     }
@@ -52,7 +50,7 @@
 
 }
 
-@media (max-width:773.98px) {
+@media (max-width:847.98px) {
     input{
         width: 250px;
         height: 52px;
@@ -69,14 +67,115 @@
         color: #000000;
         padding: 5px 10px;
     }
+    header nav ul li{
+        margin-left: 0px;
+    }
+    
+    header nav ul li:first-of-type{
+        margin-right: 0px;
+    }
+    header nav ul li:last-of-type{
+        margin-left: 0px;
+    }
+    .nav-but-wrap{ 
+        display: inline-block; 
+    }
+    .nav {
+        position: fixed;
+        z-index: 98;
+        top: 0px;
+        left: 0px;
+    }
+    .nav:before, .nav:after {
+        content: "";
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(20, 21, 26,0.6);
+        border-bottom-left-radius: 200%;
+        z-index: -1;
+        -webkit-transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
+        transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
+        transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
+        transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s, border-radius linear 0.8s;
+        -webkit-transform: translateX(100%) translateY(-100%);
+              transform: translateX(100%) translateY(-100%);
+    }
+    .nav:after {
+        background: rgba(9,9,12,1);
+        -webkit-transition-delay: 0s;
+              transition-delay: 0s;
+    }
+    .nav:before {
+        -webkit-transition-delay: .2s;
+              transition-delay: .2s;
+    }
+    .nav__content {
+        position: fixed;
+        visibility: hidden;
+        top: 50%;
+        margin-top: 20px;
+        -webkit-transform: translate(0%, -50%);
+              transform: translate(0%, -50%);
+        width: 100%;
+        text-align: center;
+    }
+    .nav__list {
+        position: relative;
+        padding: 0;
+        margin: 0;
+        z-index: 2;
+    }
+    .nav__list-item {
+        position: relative;
+        display: block;
+        -webkit-transition-delay: 0.8s;
+              transition-delay: 0.8s;
+        opacity: 0;
+        text-align: center;
+        color: #fff;
+        overflow: hidden; 
+        font-family: 'Montserrat', sans-serif;
+        font-size: 8vh;
+        font-weight: 900;
+        line-height: 1.15;
+        letter-spacing: 3px;
+        -webkit-transform: translate(100px, 0%);
+              transform: translate(100px, 0%);
+        -webkit-transition: opacity .2s ease, -webkit-transform .3s ease;
+        transition: opacity .2s ease, -webkit-transform .3s ease;
+        transition: opacity .2s ease, transform .3s ease;
+        transition: opacity .2s ease, transform .3s ease, -webkit-transform .3s ease;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .nav__list-item a{ 
+        position: relative;
+        text-decoration: none;
+        z-index: 2;
+        display: inline-block;
+        -webkit-transition: all 200ms linear;
+        transition: all 200ms linear; 
+    }
+    
+    .nav__list-item a:hover{
+        color: rgba(255,255,255,1);
+    }
+    .nav__list-item.active-nav a{
+        color: rgba(255,255,255,1);
+    }
+    .nav__list-item.active-nav a:after{ 
+        height: 4px;
+        opacity: 1;
+        left: 0;
+        width: 100%;
+    }
+    header nav ul{
+        display: block; 
+    }
 }
 
 @media (max-width: 670px) {
-    .img-logo{
-        width: 28px;
-        flex:0 0 20px ;
-        overflow: hidden;
-    }
     .what_we_do {
         background: #000000;
         padding-top: 60px;
@@ -127,10 +226,6 @@
         color: #000000;
         padding: 2px 5px;
     }
-    nav{
-        display: flex;
-        flex-wrap: wrap;
-    }
     footer .info a{
         font-size: 10px;
         line-height: 13px;
@@ -159,12 +254,11 @@
     
         header .container{
             margin: auto;
-            justify-content: center;
+            justify-content: space-between;
+        
         }
 
-    nav a:last-child{
-        display: block;
-    }
+
     .sunset article h4{
         font-size: 15px;
         line-height: 20px;

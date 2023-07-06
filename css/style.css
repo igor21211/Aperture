@@ -12,6 +12,9 @@ header .container{
     align-items: center;
     justify-content: space-between;
 }
+.img-logo{
+    z-index: 99;
+}
 header nav ul{
     list-style: none;
     display: flex;
